@@ -1,0 +1,21 @@
+<button id="button1" class="button" type="button">Egy gomb</button>
+<button id="button2" class="button" type="button">Névváltoztató gomb</button>
+<button id="button3" class="button" type="button">Háttérszínváltoztató gomb</button>
+<input type="text" id="color" value="blue">
+
+<script>
+  $(function(){
+    $('#button1').click(() =>{
+      console.log("Igen, most rákattintottál.")
+    });
+    
+    $('#button2').click(() =>{
+      $('#button1').html('Megváltozott név');
+    });
+    
+    $('#button3').click(() =>{
+      $('.button').css('background-color', $('#color').val());
+      $('#button3').prop('disabled', true);
+    });
+  });
+</script>

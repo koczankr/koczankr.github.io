@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 920px;
+}
+
+.header, .footer {
+  height: 150px;
+  flex-grow: 1;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: blue;
+}
+
+.row {
+  height: 500px;
+  display: flex;
+}
+
+.main {
+  background-color: red;
+  flex-grow: 4;
+  margin: 0 30px;
+  position: relative;
+}
+
+.aside {
+  background-color: purple;
+  flex-grow: 1;
+}
+
+.aside:first-child {
+  background-color: orange;
+}
+
+#blackbox {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}

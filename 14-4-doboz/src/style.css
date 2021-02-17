@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  background-color: #ffd62a;
+  width: 400px;
+  height: 150px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  background-color: #b02afe;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px 0 0;
+}
+
+.container > .item:last-child{
+  margin: 0;
+}
+
+/* arrange 2 */
+.container {
+  align-items: center;
+}
+
+/* arrange 3 */
+/*
+.item {
+  margin: 0;
+}
+*/
+.container {
+  justify-content: space-between;
+}
+
+/* arrange 4 */
+.container {
+  justify-content: flex-end;
+  align-items: flex-end;
+}

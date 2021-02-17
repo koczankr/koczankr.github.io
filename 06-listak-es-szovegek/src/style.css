@@ -1,0 +1,20 @@
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: #9966ff;
+}
+
+ol {
+  list-style-type: upper-roman;
+  
+}
+
+.alahuzott {
+  text-decoration: underline;
+}
+
+.szines {
+  color: purple;
+}

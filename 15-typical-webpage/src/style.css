@@ -1,0 +1,35 @@
+.headContainer {
+  display: flex;
+  background-color: purple;
+  height: 50px;
+  align-items: center;
+}
+
+.headItem {
+  padding: 0;
+  border: 0;
+  display: block;
+  background-color: cyan;
+  height: 30px;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.headItem:nth-child(2) {
+  width: 150px;
+}
+
+.row {
+  height: 500px;
+  display: flex;
+}
+
+.main {
+  background-color: yellow;
+  flex-grow: 4;
+}
+
+.aside {
+  background-color: lime;
+  flex-grow: 1;
+}

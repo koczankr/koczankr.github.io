@@ -1,0 +1,46 @@
+.headContainer {
+  display: flex;
+  background-color: purple;
+  height: 70px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.headItem {
+  padding: 0;
+  border: 0;
+  display: block;
+  background-color: cyan;
+  height: 30px;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.headItem:nth-child(2) {
+  width: 150px;
+}
+
+.row {
+  height: 500px;
+  display: flex;
+  margin: 80px 100px 0 100px;
+}
+
+.main {
+  background-color: yellow;
+  flex-grow: 4;
+}
+
+.aside {
+  background-color: lime;
+  flex-grow: 1;
+}
+
+.footer {
+  height: 80px;
+  margin: 10px 100px 0 100px;
+  background-color: lightgray;
+}

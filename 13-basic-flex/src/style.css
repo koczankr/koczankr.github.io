@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  max-width: 450px;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+}
+
+.green {
+  background-color: #51d400;
+}
+
+.yellow {
+  background-color: #ffd62a;
+}
+
+.purple {
+  background-color: #b02afe;
+}
+
+/* basic flex 2 */
+.container {
+  flex-direction: row-reverse;
+}
+
+/* basic flex 3 */
+.container {
+  flex-direction: column-reverse;
+}
+
+/* basic flex 4 */
+.container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+/* basic flex 5 */
+.container {
+  justify-content: flex-end;
+}

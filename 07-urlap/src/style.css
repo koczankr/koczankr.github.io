@@ -1,0 +1,30 @@
+input, label, button {
+  display: block; 
+  padding: 0;
+  margin: 5px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+label, button {
+  text-transform: uppercase;
+}
+
+label {
+  padding: 5px 0 0 0;
+}
+
+input, button {
+  height: 40px;
+  border: 3px solid #60e858;
+}
+
+input {
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #60e858;
+  border-radius: 20px;
+}

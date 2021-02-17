@@ -1,0 +1,9 @@
+.doboz {
+  color: blue;
+  background-color: #0D91A1;
+  font-color: #015668;
+  width: 300px;
+  padding: 10px 20px 30px 40px;
+  border: 5px solid #7DCE94;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
