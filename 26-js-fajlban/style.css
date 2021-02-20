@@ -1,0 +1,65 @@
+.w400 {
+    width: 400px;
+}
+
+/* simplest selectors */
+
+.asteroid.big {
+    color: blue;
+}
+
+.container > div {
+    border: 1px solid green;
+}
+
+div.asteroid {
+    font-weight: bold;
+}
+
+p.asteroid {
+    background-color: yellow;
+}
+
+/* pseudo practice */
+
+.pp {
+    margin: 0;
+    padding: 10px;
+    border-style:  solid;
+    border-color:  black;
+    border-width: 0 1px 1px 1px;
+}
+
+.pp:first-of-type {
+    border-top-width: 1px;
+}
+
+.pp:hover {
+    background-color: orangered;
+}
+
+/* 20 boxes */
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 640px;
+    height: 80px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.boxes.box-first {
+    margin-bottom: 20px;
+}
+
+.boxes.box-second {
+    background-color: orangered;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}

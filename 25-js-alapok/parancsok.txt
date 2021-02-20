@@ -1,0 +1,32 @@
+let age = 2021- 1982
+39
+let ww2 = 1945-1938
+7
+let tesla = 76 * 787.38
+59840.88
+let secondsOfDay = 60 * 60 * 24
+86400
+let hungarians = 9.77 / 7594 * 100
+0.1286542006847511
+let bigger = 9597000 - 78866
+9518134
+let participants = 654 % 7
+3
+
+let names = ['Álmos', 'Előd', 'Ond', 'Kond']
+undefined
+names[2].length > 5
+false
+names.push('Tas')
+5
+names[0]='Krisztián'
+"Krisztián"
+names.length > 4
+true
+
+let obj = {
+    colors: ['red', 'green', 'blue'],
+}
+obj.hasManyColors = obj.colors.length > 3
+false
+
