@@ -1,5 +1,7 @@
 $('#add').on('click', () => { 
     $('#todos').append(`<li class="item">${$('#nextTodo').val()}<span class="action"><img class="trash" src="./style/trash.svg" alt="törlés"><img class="done" src="./style/done1.svg" alt="kész"></span></li>`)
+    $('#nextTodo').val('')
+    $('#nextTodo').focus()
 });
 
 $('ul').on('click', '.done', (event) => { 
